@@ -7,16 +7,16 @@
 }
 
 .total-frame .total-wrapper {
-  height: 6268px;
+  height: auto; /* Adjust height to fit content */
   overflow-x: hidden;
-  width: 1465px;
+  width: 100%; /* Use percentage width to fit viewport */
 }
 
 .total-frame .overlap-group-wrapper {
-  height: 6276px;
-  left: -79px;
+  height: auto; /* Adjust height to fit content */
+  left: 0; /* Align to the left */
   position: relative;
-  width: 1820px;
+  width: 100%; /* Use percentage width to fit viewport */
 }
 
 .total-frame .overlap-11 {
@@ -25,24 +25,20 @@
 }
 
 .total-frame .cover-2 {
-  -webkit-backdrop-filter: blur(200px) brightness(100%);
-  backdrop-filter: blur(200px) brightness(100%);
-  background-color: #2a2a2a;
-  height: 6276px;
-  left: 2px;
+  height: auto; /* Adjust height to fit content */
+  left: 0; /* Align to the left */
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%; /* Use percentage width to fit viewport */
 }
 
 .total-frame .main-intro-frame {
-  background-color: #2a2a2a;
-  height: 720px;
-  left: 2px;
-  overflow: scroll;
-  position: absolute;
-  top: 127px;
-  width: 1440px;
+  height: auto; /* Adjust height to fit content */
+  left: 0; /* Align to the left */
+  overflow: hidden; /* Change overflow to hidden */
+  position: relative; /* Change to relative positioning */
+  top: 0; /* Adjust top position */
+  width: 100%; /* Use percentage width to fit viewport */
 }
 
 .total-frame .vector-6 {
