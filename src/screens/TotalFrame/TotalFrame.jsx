@@ -18,7 +18,9 @@ export const TotalFrame = () => {
               <img className="vector-6" alt="Vector" src="/img/vector.png" />
               <div className="intro-text-2">
                 <div className="hey-text-2">Hey!</div>
-                <p className="intro-text-3">I’m Nick and this is a little about me!</p>
+                <p className="intro-text-3">
+                  I’m Nick and this is a little about me!
+                </p>
                 <ElementControlsButtons
                   buttonTypes="primary"
                   className="two-controls-buttons"
@@ -29,7 +31,11 @@ export const TotalFrame = () => {
                 />
               </div>
             </div>
-            <img className="work-background" alt="Work background" src="/img/work-background.png" />
+            <img
+              className="work-background"
+              alt="Work background"
+              src="/img/work-background.png"
+            />
             <div className="main-work-frame">
               <div className="rocket-slide-wrapper">
                 <div className="rocket-slide">
@@ -46,7 +52,11 @@ export const TotalFrame = () => {
                     </div>
                     <div className="rocket-coding-logos-2">
                       <img className="AWS-2" alt="Aws" src="/img/aws.png" />
-                      <img className="logos-python-5" alt="Logos python" src="/img/logos-python-original-1.png" />
+                      <img
+                        className="logos-python-5"
+                        alt="Logos python"
+                        src="/img/logos-python-original-1.png"
+                      />
                       <div className="overlap-group-8">
                         <div className="element-icons-image-26" />
                         <div className="element-icons-image-27" />
@@ -61,11 +71,23 @@ export const TotalFrame = () => {
                       <div className="element-icons-image-30" />
                       <div className="element-icons-image-31" />
                       <div className="element-icons-image-32" />
-                      <img className="vector-7" alt="Vector" src="/img/vector-4.png" />
+                      <img
+                        className="vector-7"
+                        alt="Vector"
+                        src="/img/vector-4.png"
+                      />
                       <div className="img-wrapper">
-                        <img className="vector-8" alt="Vector" src="/img/vector-5.png" />
+                        <img
+                          className="vector-8"
+                          alt="Vector"
+                          src="/img/vector-5.png"
+                        />
                       </div>
-                      <img className="vector-9" alt="Vector" src="/img/vector-2.png" />
+                      <img
+                        className="vector-9"
+                        alt="Vector"
+                        src="/img/vector-2.png"
+                      />
                     </div>
                     <ElementControlsButtons
                       buttonTypes="primary"
@@ -77,18 +99,25 @@ export const TotalFrame = () => {
                     />
                     <p className="data-science-and">
                       <span className="span">
-                        Data Science and Analytics Intern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Data Science and Analytics
+                        Intern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </span>
                       <span className="text-wrapper-10">🚀</span>
                     </p>
                     <p className="description-23">
-                      (I) Analyzed Rocket Mortgage&#39;s Reddit reputation using NLP sentiment analysis.
+                      (I) Analyzed Rocket Mortgage&#39;s Reddit reputation using
+                      NLP sentiment analysis.
                       <br />
-                      (II) Developed a new strategy for call center routing using Machine Learning. <br />
-                      (III) Developed and implement data-driven solutions through creation of an automated performance
-                      dashboard.
+                      (II) Developed a new strategy for call center routing
+                      using Machine Learning. <br />
+                      (III) Developed and implement data-driven solutions
+                      through creation of an automated performance dashboard.
                     </p>
-                    <img className="vector-10" alt="Vector" src="/img/vector-1.png" />
+                    <img
+                      className="vector-10"
+                      alt="Vector"
+                      src="/img/vector-1.png"
+                    />
                     <div className="element-facts-grouped">
                       <div className="first-fact-2">
                         <div className="overlap-group-9">
@@ -106,7 +135,9 @@ export const TotalFrame = () => {
                             <div className="group-4">
                               <div className="frame-23">
                                 <div className="description-24">70.1%</div>
-                                <div className="description-25">Neutral Sentiment</div>
+                                <div className="description-25">
+                                  Neutral Sentiment
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -128,7 +159,9 @@ export const TotalFrame = () => {
                             <div className="group-5">
                               <div className="frame-25">
                                 <div className="description-26">240 k+</div>
-                                <div className="description-25">Foretasted Gains</div>
+                                <div className="description-25">
+                                  Foretasted Gains
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -150,7 +183,9 @@ export const TotalFrame = () => {
                             <div className="group-6">
                               <div className="frame-27">
                                 <div className="description-27">++ Clarity</div>
-                                <div className="description-25">For Call Center Leaders</div>
+                                <div className="description-25">
+                                  For Call Center Leaders
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -179,11 +214,16 @@ export const TotalFrame = () => {
                   />
                   <p className="co-founder-lead-2">
                     <span className="span">
-                      Co-Founder &amp; Lead Software Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      Co-Founder &amp; Lead Software
+                      Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </span>
                     <span className="text-wrapper-11">🛠️</span>
                   </p>
-                  <img className="vector-11" alt="Vector" src="/img/vector-3.png" />
+                  <img
+                    className="vector-11"
+                    alt="Vector"
+                    src="/img/vector-3.png"
+                  />
                   <div className="jdf-logos-2">
                     <img className="AWS-3" alt="Aws" src="/img/aws-1.png" />
                     <img
@@ -191,11 +231,19 @@ export const TotalFrame = () => {
                       alt="Logos nodejs plain"
                       src="/img/logos-nodejs-plain-wordmark-1-2x.png"
                     />
-                    <img className="java-script-2" alt="Java script" src="/img/javascript.png" />
+                    <img
+                      className="java-script-2"
+                      alt="Java script"
+                      src="/img/javascript.png"
+                    />
                     <div className="element-icons-image-33" />
                     <div className="element-icons-image-34" />
                     <div className="element-icons-image-35" />
-                    <img className="frame-28" alt="Frame" src="/img/frame.png" />
+                    <img
+                      className="frame-28"
+                      alt="Frame"
+                      src="/img/frame.png"
+                    />
                     <img
                       className="logos-css-original"
                       alt="Logos original"
@@ -211,10 +259,11 @@ export const TotalFrame = () => {
                     text="🧰"
                   />
                   <p className="description-28">
-                    (I) Co-founded JDF Data, developing and deploying a full-stack application for document automation
-                    and retrieval for 4 small local businesses. <br />
-                    (II) Partnered with an industry expert with over 35 years of experience, currently expanding
-                    business opportunities.
+                    (I) Co-founded JDF Data, developing and deploying a
+                    full-stack application for document automation and retrieval
+                    for 4 small local businesses. <br />
+                    (II) Partnered with an industry expert with over 35 years of
+                    experience, currently expanding business opportunities.
                   </p>
                   <div className="fact">
                     <div className="overlap-group-10">
@@ -251,7 +300,9 @@ export const TotalFrame = () => {
                       <div className="element-k">
                         <div className="frame-30">
                           <div className="description-29">30 k +</div>
-                          <div className="description-25">Initial Evaluation</div>
+                          <div className="description-25">
+                            Initial Evaluation
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -272,7 +323,9 @@ export const TotalFrame = () => {
                         <div className="ease">
                           <div className="frame-31">
                             <div className="description-30">++ Ease</div>
-                            <div className="description-25">For Local Businesses.</div>
+                            <div className="description-25">
+                              For Local Businesses.
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -289,11 +342,19 @@ export const TotalFrame = () => {
                       <div className="presentation-picture-2" />
                       <div className="computer-science-2" />
                     </div>
-                    <img className="mich-intro-group" alt="Mich intro group" src="/img/mich-intro-group.png" />
+                    <img
+                      className="mich-intro-group"
+                      alt="Mich intro group"
+                      src="/img/mich-intro-group.png"
+                    />
                     <div className="luke-nick-fistbump-2" />
                     <div className="SF-picture" />
                   </div>
-                  <img className="background-text-2" alt="Background text" src="/img/image.png" />
+                  <img
+                    className="background-text-2"
+                    alt="Background text"
+                    src="/img/image.png"
+                  />
                 </div>
               </div>
             </div>
@@ -306,7 +367,9 @@ export const TotalFrame = () => {
                         <div className="frame-32" />
                       </div>
                       <div className="frame-33">
-                        <div className="text-wrapper-12">Projects and Competitions</div>
+                        <div className="text-wrapper-12">
+                          Projects and Competitions
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -325,12 +388,17 @@ export const TotalFrame = () => {
                       <div className="deloitte-slide-2">
                         <div className="right-icon" />
                         <div className="titles-5">
-                          <p className="project-title-3">Michigan Ross x Deloitte Datathon: Finalist</p>
+                          <p className="project-title-3">
+                            Michigan Ross x Deloitte Datathon: Finalist
+                          </p>
                           <p className="description-31">
-                            Finalist in the Deloitte &amp; Michigan Ross Business+Tech Datathon among 41 teams, advising
-                            ExxonMobil on boosting profitability through detailed analysis of emissions, financial, and
-                            operational data using SQL, Python, and Tableau to identify key environmental impact
-                            correlations and develop mitigation strategies.
+                            Finalist in the Deloitte &amp; Michigan Ross
+                            Business+Tech Datathon among 41 teams, advising
+                            ExxonMobil on boosting profitability through
+                            detailed analysis of emissions, financial, and
+                            operational data using SQL, Python, and Tableau to
+                            identify key environmental impact correlations and
+                            develop mitigation strategies.
                           </p>
                         </div>
                         <div className="element-icons-image-36" />
@@ -345,10 +413,27 @@ export const TotalFrame = () => {
                           <div className="element-icons-image-37" />
                           <div className="element-icons-image-38" />
                         </div>
-                        <img className="SQL-logo-deloitte-2" alt="Sql logo deloitte" src="/img/vector-4.png" />
-                        <img className="tablue-logo-2" alt="Tablue logo" src="/img/tablue-logo-2x.png" />
-                        <ElementNavigationBack className="projects-right" darkMode states="default" type="right" />
-                        <img className="logos-python-6" alt="Logos python" src="/img/logos-python-original-2.png" />
+                        <img
+                          className="SQL-logo-deloitte-2"
+                          alt="Sql logo deloitte"
+                          src="/img/vector-4.png"
+                        />
+                        <img
+                          className="tablue-logo-2"
+                          alt="Tablue logo"
+                          src="/img/tablue-logo-2x.png"
+                        />
+                        <ElementNavigationBack
+                          className="projects-right"
+                          darkMode
+                          states="default"
+                          type="right"
+                        />
+                        <img
+                          className="logos-python-6"
+                          alt="Logos python"
+                          src="/img/logos-python-original-2.png"
+                        />
                       </div>
                       <a
                         className="skill-button-2"
@@ -365,10 +450,13 @@ export const TotalFrame = () => {
                       <div className="MDST-3">
                         <div className="right-icon" />
                         <div className="titles-5">
-                          <p className="project-title-3">Michigan Data Science Team: K-Means Machine Learning</p>
+                          <p className="project-title-3">
+                            Michigan Data Science Team: K-Means Machine Learning
+                          </p>
                           <p className="description-31">
-                            Worked in a team of six to enhance Codenames gameplay, developing AI bots using Q-Learning
-                            and K-means to refine decision making strategy.
+                            Worked in a team of six to enhance Codenames
+                            gameplay, developing AI bots using Q-Learning and
+                            K-means to refine decision making strategy.
                           </p>
                         </div>
                         <div className="element-icons-image-36" />
@@ -385,7 +473,11 @@ export const TotalFrame = () => {
                         className="element-icons-image-instance"
                         elementIconsImage="/img/03-icons-image-appicon-24.png"
                       />
-                      <img className="MDST-tech-stack" alt="Mdst tech stack" src="/img/mdst-tech-stack.png" />
+                      <img
+                        className="MDST-tech-stack"
+                        alt="Mdst tech stack"
+                        src="/img/mdst-tech-stack.png"
+                      />
                     </div>
                     <div className="google-frame-2">
                       <div className="overlap-group-15">
@@ -402,11 +494,14 @@ export const TotalFrame = () => {
                           </div>
                         </div>
                         <div className="titles-6">
-                          <p className="project-title-3">Google x MHacks AI Hackathon</p>
+                          <p className="project-title-3">
+                            Google x MHacks AI Hackathon
+                          </p>
                           <p className="description-31">
-                            Developed &#34;Threaded Semantic Syntax Search&#34; to provide a GitHub and document search
-                            tool for software engineers learning large codebases (&gt;20 million tokens) and company
-                            documents.
+                            Developed &#34;Threaded Semantic Syntax Search&#34;
+                            to provide a GitHub and document search tool for
+                            software engineers learning large codebases (&gt;20
+                            million tokens) and company documents.
                           </p>
                         </div>
                         <ElementIconsImage
@@ -421,7 +516,11 @@ export const TotalFrame = () => {
                         >
                           <div className="tag-2">🧰</div>
                         </a>
-                        <img className="google-tech-stack-2" alt="Google tech stack" src="/img/google-tech-stack.png" />
+                        <img
+                          className="google-tech-stack-2"
+                          alt="Google tech stack"
+                          src="/img/google-tech-stack.png"
+                        />
                         <div className="picture-tsss-picture">
                           <div className="element-icons-image-39" />
                         </div>
@@ -435,14 +534,22 @@ export const TotalFrame = () => {
               <div className="navbar-group-2">
                 <div className="overlap-group-16">
                   <div className="navbar" />
-                  <a href="mailto:njjohns@umich.edu" rel="noopener noreferrer" target="_blank">
+                  <a
+                    href="mailto:njjohns@umich.edu"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <img
                       className="gmail-button-bottom-3"
                       alt="Gmail button bottom"
                       src="/img/gmail-button-bottom.png"
                     />
                   </a>
-                  <img className="face-intro-text-2" alt="Face intro text" src="/img/face-intro-text.png" />
+                  <img
+                    className="face-intro-text-2"
+                    alt="Face intro text"
+                    src="/img/face-intro-text.png"
+                  />
                   <a
                     className="frame-34"
                     href="www.linkedin.com/in/nick-johnson-michigan"
@@ -450,8 +557,16 @@ export const TotalFrame = () => {
                     target="_blank"
                   />
                   <div className="element-controls-fab-2" />
-                  <a href="https://github.com/nickjohnsondls" rel="noopener noreferrer" target="_blank">
-                    <img className="github-logo-3" alt="Github logo" src="/img/github-logo-2.png" />
+                  <a
+                    href="https://github.com/nickjohnsondls"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="github-logo-3"
+                      alt="Github logo"
+                      src="/img/github-logo-2.png"
+                    />
                   </a>
                   <a
                     className="resume-button-bottom-3"
@@ -469,8 +584,14 @@ export const TotalFrame = () => {
                 <div className="bottom-group-2">
                   <div className="overlap-group-17">
                     <div className="element-home-work-contact" />
-                    <img className="frame-35" alt="Frame" src="/img/frame-4501.png" />
-                    <p className="text-wrapper-13">Made by Nick Johnson, 2024</p>
+                    <img
+                      className="frame-35"
+                      alt="Frame"
+                      src="/img/frame-4501.png"
+                    />
+                    <p className="text-wrapper-13">
+                      Made by Nick Johnson, 2024
+                    </p>
                     <div className="reach-out-for-more-wrapper">
                       <img
                         className="reach-out-for-more-2"
@@ -498,7 +619,7 @@ export const TotalFrame = () => {
                   darkMode
                   divClassName="design-component-instance-node"
                   states="default"
-                  text1="Back up 􀄨"
+                  text1="Back up!"
                 />
                 <ElementControlsButtons
                   buttonTypes="primary"

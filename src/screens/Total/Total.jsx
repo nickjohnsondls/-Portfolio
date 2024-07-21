@@ -413,7 +413,7 @@ export const Total = () => {
                 </div>
               </div>
               <div className="element-controls-buttons-2">
-                <div className="text-wrapper-6">Back up􀄨</div>
+                <div className="text-wrapper-6">Back up</div>
               </div>
               <a href="mailto:njjohns@umich.edu" rel="noopener noreferrer" target="_blank">
                 <img className="gmail-button-bottom-2" alt="Gmail button bottom" src="/img/gmail-button-bottom.png" />

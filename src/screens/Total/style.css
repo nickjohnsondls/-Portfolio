@@ -1,10 +1,25 @@
-.total {
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
+
+
+
+
+.total {
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  
+}
+
+
+
 
 .total .overlap-wrapper {
   height: 5720px;
@@ -30,12 +45,12 @@
 }
 
 .total .intro-frame {
-  height: 733px;
-  left: 1px;
+  height: 100%;
+  left: 0px;
   overflow: scroll;
   position: absolute;
   top: 108px;
-  width: 1440px;
+  width: 110%;
 }
 
 .total .intro-text {

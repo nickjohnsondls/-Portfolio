@@ -1,13 +1,20 @@
 .total-frame {
   background-color: transparent;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
+  min-height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .total-frame .total-wrapper {
-  height: auto; /* Adjust height to fit content */
+  height: 100%; /* Adjust height to fit content */
   overflow-x: hidden;
   width: 100%; /* Use percentage width to fit viewport */
 }
@@ -17,10 +24,11 @@
   left: 0; /* Align to the left */
   position: relative;
   width: 100%; /* Use percentage width to fit viewport */
+  flex: 1;
 }
 
 .total-frame .overlap-11 {
-  height: 6276px;
+  height: auto;
   position: relative;
 }
 
@@ -100,7 +108,7 @@
 }
 
 .total-frame .work-background {
-  height: 1768px;
+  height: auto;
   left: 0;
   position: absolute;
   top: 1615px;
@@ -108,7 +116,7 @@
 }
 
 .total-frame .main-work-frame {
-  height: 1768px;
+  height: auto;
   left: 2px;
   position: absolute;
   top: 1596px;
@@ -1575,6 +1583,7 @@
   background-image: url(../../../static/img/dark-mode-true-shape-square.png);
   background-position: 50% 50%;
   background-size: cover;
+
   border-radius: 32px;
   height: 435px;
 }
