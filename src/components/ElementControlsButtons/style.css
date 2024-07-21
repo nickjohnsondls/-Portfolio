@@ -1,0 +1,82 @@
+.element-controls-buttons {
+  align-items: center;
+  border-radius: 12px;
+  display: inline-flex;
+  overflow: hidden;
+  padding: 13px 24px;
+  position: relative;
+  top: 16px;
+}
+
+.element-controls-buttons .primary-2 {
+  font-family: var(--SF-pro-medium-17-m-font-family);
+  font-size: var(--SF-pro-medium-17-m-font-size);
+  font-style: var(--SF-pro-medium-17-m-font-style);
+  font-weight: var(--SF-pro-medium-17-m-font-weight);
+  letter-spacing: var(--SF-pro-medium-17-m-letter-spacing);
+  line-height: var(--SF-pro-medium-17-m-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element-controls-buttons.dark-mode-10-true.hover-over.primary {
+  background-color: var(--greys-04);
+  left: 696px;
+}
+
+.element-controls-buttons.dark-mode-10-false.secondary.default {
+  -webkit-backdrop-filter: blur(100px) brightness(100%);
+  backdrop-filter: blur(100px) brightness(100%);
+  background-color: #ffffff80;
+  left: 268px;
+}
+
+.element-controls-buttons.dark-mode-10-false.hover-over.primary {
+  background-color: var(--greys-06);
+  box-shadow: var(--elevation-02);
+  left: 142px;
+}
+
+.element-controls-buttons.dark-mode-10-true.secondary.default {
+  background-color: var(--greys-08);
+  left: 822px;
+}
+
+.element-controls-buttons.dark-mode-10-false.hover-over.secondary {
+  background-color: var(--greys-00);
+  box-shadow: var(--elevation-01);
+  left: 419px;
+}
+
+.element-controls-buttons.dark-mode-10-true.primary.default {
+  background-color: var(--greys-00);
+  left: 570px;
+}
+
+.element-controls-buttons.dark-mode-10-true.hover-over.secondary {
+  background-color: var(--greys-07);
+  left: 973px;
+}
+
+.element-controls-buttons.dark-mode-10-false.primary.default {
+  background-color: var(--greys-08);
+  left: 16px;
+}
+
+.element-controls-buttons.dark-mode-10-false.secondary .primary-2 {
+  color: var(--text-iconslight-high-emphasis);
+}
+
+.element-controls-buttons.dark-mode-10-false.primary .primary-2 {
+  color: var(--text-iconsdark-high-emphasis);
+}
+
+.element-controls-buttons.dark-mode-10-true.primary .primary-2 {
+  color: var(--text-iconslight-high-emphasis);
+}
+
+.element-controls-buttons.dark-mode-10-true.secondary .primary-2 {
+  color: var(--text-iconsdark-high-emphasis);
+}

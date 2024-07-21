@@ -1,0 +1,63 @@
+.element-emoji {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 56px;
+  position: relative;
+  top: 16px;
+  width: 56px;
+}
+
+.element-emoji.insights {
+  background-image: url(../../../static/img/image-54.png);
+  left: 520px;
+}
+
+.element-emoji.personal-project {
+  background-image: url(../../../static/img/image-657.png);
+  left: 448px;
+}
+
+.element-emoji.folio {
+  background-image: url(../../../static/img/image-1277.png);
+  left: 592px;
+}
+
+.element-emoji.truth {
+  background-image: url(../../../static/img/emoji-false.png);
+  left: 16px;
+}
+
+.element-emoji.article {
+  background-image: url(../../../static/img/image-989.png);
+  left: 736px;
+}
+
+.element-emoji.thoughts {
+  background-image: url(../../../static/img/image-1759.png);
+  left: 88px;
+}
+
+.element-emoji.contact {
+  background-image: url(../../../static/img/image-1001.png);
+  left: 664px;
+}
+
+.element-emoji.lie {
+  background-image: url(../../../static/img/emoji-true.png);
+  left: 160px;
+}
+
+.element-emoji.image {
+  background-image: url(../../../static/img/image-1655.png);
+  left: 304px;
+}
+
+.element-emoji.designer {
+  background-image: url(../../../static/img/portrait.png);
+  left: 232px;
+}
+
+.element-emoji.goal {
+  background-image: url(../../../static/img/image-1310.png);
+  left: 376px;
+}

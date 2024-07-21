@@ -1,0 +1,314 @@
+.element-cards-successcard {
+  align-items: flex-start;
+  border-radius: 32px;
+  box-shadow: var(--elevation-01);
+  flex-direction: column;
+  overflow: hidden;
+  padding: 32px;
+  position: relative;
+  top: 16px;
+}
+
+.element-cards-successcard .description {
+  font-family: var(--SF-pro-medium-17-s-font-family);
+  font-size: var(--SF-pro-medium-17-s-font-size);
+  font-style: var(--SF-pro-medium-17-s-font-style);
+  font-weight: var(--SF-pro-medium-17-s-font-weight);
+  letter-spacing: var(--SF-pro-medium-17-s-letter-spacing);
+  line-height: var(--SF-pro-medium-17-s-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.element-cards-successcard .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.element-cards-successcard .img {
+  flex: 0 0 auto;
+  position: relative;
+  width: 38px;
+}
+
+.element-cards-successcard .text-wrapper {
+  align-self: stretch;
+  font-family: var(--SF-pro-title-01-64-font-family);
+  font-size: var(--SF-pro-title-01-64-font-size);
+  font-style: var(--SF-pro-title-01-64-font-style);
+  font-weight: var(--SF-pro-title-01-64-font-weight);
+  letter-spacing: var(--SF-pro-title-01-64-letter-spacing);
+  line-height: var(--SF-pro-title-01-64-line-height);
+  position: relative;
+}
+
+.element-cards-successcard .div {
+  align-self: stretch;
+  font-family: var(--SF-pro-large-24-font-family);
+  font-size: var(--SF-pro-large-24-font-size);
+  font-style: var(--SF-pro-large-24-font-style);
+  font-weight: var(--SF-pro-large-24-font-weight);
+  letter-spacing: var(--SF-pro-large-24-letter-spacing);
+  line-height: var(--SF-pro-large-24-line-height);
+  position: relative;
+}
+
+.element-cards-successcard .description-2 {
+  align-self: stretch;
+  font-family: var(--SF-pro-title-02-34-font-family);
+  font-size: var(--SF-pro-title-02-34-font-size);
+  font-style: var(--SF-pro-title-02-34-font-style);
+  font-weight: var(--SF-pro-title-02-34-font-weight);
+  letter-spacing: var(--SF-pro-title-02-34-letter-spacing);
+  line-height: var(--SF-pro-title-02-34-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.element-cards-successcard .frame-2 {
+  align-self: stretch;
+  position: relative;
+}
+
+.element-cards-successcard .description-3 {
+  align-self: stretch;
+  font-family: var(--SF-pro-title-01-64-font-family);
+  font-size: var(--SF-pro-title-01-64-font-size);
+  font-style: var(--SF-pro-title-01-64-font-style);
+  font-weight: var(--SF-pro-title-01-64-font-weight);
+  letter-spacing: var(--SF-pro-title-01-64-letter-spacing);
+  line-height: var(--SF-pro-title-01-64-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.element-cards-successcard .description-4 {
+  align-self: stretch;
+  font-family: var(--SF-pro-large-24-font-family);
+  font-size: var(--SF-pro-large-24-font-size);
+  font-style: var(--SF-pro-large-24-font-style);
+  font-weight: var(--SF-pro-large-24-font-weight);
+  letter-spacing: var(--SF-pro-large-24-letter-spacing);
+  line-height: var(--SF-pro-large-24-line-height);
+  position: relative;
+}
+
+.element-cards-successcard .frame-3 {
+  position: relative;
+}
+
+.element-cards-successcard .description-5 {
+  align-self: stretch;
+  font-family: var(--SF-pro-title-01-64-font-family);
+  font-size: var(--SF-pro-title-01-64-font-size);
+  font-style: var(--SF-pro-title-01-64-font-style);
+  font-weight: var(--SF-pro-title-01-64-font-weight);
+  letter-spacing: var(--SF-pro-title-01-64-letter-spacing);
+  line-height: var(--SF-pro-title-01-64-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.element-cards-successcard .description-6 {
+  align-self: stretch;
+  font-family: var(--SF-pro-large-24-font-family);
+  font-size: var(--SF-pro-large-24-font-size);
+  font-style: var(--SF-pro-large-24-font-style);
+  font-weight: var(--SF-pro-large-24-font-weight);
+  letter-spacing: var(--SF-pro-large-24-letter-spacing);
+  line-height: var(--SF-pro-large-24-line-height);
+  position: relative;
+}
+
+.element-cards-successcard.dark-mode-true {
+  background-color: var(--greys-07);
+}
+
+.element-cards-successcard.adoption {
+  display: inline-flex;
+  gap: 125px;
+}
+
+.element-cards-successcard.dark-mode-false {
+  background-color: var(--greys-00);
+}
+
+.element-cards-successcard.retention {
+  display: inline-flex;
+  gap: 43px;
+}
+
+.element-cards-successcard.ROI {
+  display: flex;
+  gap: 118px;
+  width: 368px;
+}
+
+.element-cards-successcard.dark-mode-true.adoption {
+  left: 1168px;
+}
+
+.element-cards-successcard.dark-mode-true.ROI {
+  left: 1936px;
+}
+
+.element-cards-successcard.dark-mode-false.adoption {
+  left: 16px;
+}
+
+.element-cards-successcard.retention.dark-mode-false {
+  left: 400px;
+}
+
+.element-cards-successcard.dark-mode-false.ROI {
+  left: 784px;
+}
+
+.element-cards-successcard.retention.dark-mode-true {
+  left: 1552px;
+}
+
+.element-cards-successcard.dark-mode-true .description {
+  color: var(--text-iconsdark-medium-emphasis);
+}
+
+.element-cards-successcard.adoption .description {
+  width: 304px;
+}
+
+.element-cards-successcard.dark-mode-false .description {
+  color: var(--text-iconslight-disabled);
+}
+
+.element-cards-successcard.retention .description {
+  align-self: stretch;
+}
+
+.element-cards-successcard.ROI .description {
+  align-self: stretch;
+}
+
+.element-cards-successcard.retention .frame {
+  gap: 24px;
+}
+
+.element-cards-successcard.adoption .frame {
+  gap: 4px;
+  justify-content: flex-end;
+}
+
+.element-cards-successcard.ROI .frame {
+  gap: 4px;
+}
+
+.element-cards-successcard.dark-mode-true .text-wrapper {
+  color: var(--text-iconsdark-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-false .text-wrapper {
+  color: var(--text-iconslight-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-true .div {
+  color: var(--text-iconsdark-disabled);
+}
+
+.element-cards-successcard.dark-mode-false .div {
+  color: var(--text-iconslight-disabled);
+}
+
+.element-cards-successcard.dark-mode-true .description-2 {
+  color: var(--text-iconsdark-medium-emphasis);
+}
+
+.element-cards-successcard.dark-mode-false .description-2 {
+  color: var(--text-iconslight-medium-emphasis);
+}
+
+.element-cards-successcard.retention .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  width: 100%;
+}
+
+.element-cards-successcard.ROI .frame-2 {
+  font-family: var(--SF-pro-title-01-64-font-family);
+  font-size: var(--SF-pro-title-01-64-font-size);
+  font-style: var(--SF-pro-title-01-64-font-style);
+  font-weight: var(--SF-pro-title-01-64-font-weight);
+  letter-spacing: var(--SF-pro-title-01-64-letter-spacing);
+  line-height: var(--SF-pro-title-01-64-line-height);
+}
+
+.element-cards-successcard.dark-mode-true.ROI .frame-2 {
+  color: var(--text-iconsdark-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-false.ROI .frame-2 {
+  color: var(--text-iconslight-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-true .description-3 {
+  color: var(--text-iconsdark-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-false .description-3 {
+  color: var(--text-iconslight-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-true .description-4 {
+  color: var(--text-iconsdark-disabled);
+}
+
+.element-cards-successcard.dark-mode-false .description-4 {
+  color: var(--text-iconslight-disabled);
+}
+
+.element-cards-successcard.retention .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  width: 304px;
+}
+
+.element-cards-successcard.ROI .frame-3 {
+  align-self: stretch;
+  font-family: var(--SF-pro-large-24-font-family);
+  font-size: var(--SF-pro-large-24-font-size);
+  font-style: var(--SF-pro-large-24-font-style);
+  font-weight: var(--SF-pro-large-24-font-weight);
+  letter-spacing: var(--SF-pro-large-24-letter-spacing);
+  line-height: var(--SF-pro-large-24-line-height);
+}
+
+.element-cards-successcard.dark-mode-true.ROI .frame-3 {
+  color: var(--text-iconsdark-disabled);
+}
+
+.element-cards-successcard.dark-mode-false.ROI .frame-3 {
+  color: var(--text-iconslight-disabled);
+}
+
+.element-cards-successcard.dark-mode-true .description-5 {
+  color: var(--text-iconsdark-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-false .description-5 {
+  color: var(--text-iconslight-high-emphasis);
+}
+
+.element-cards-successcard.dark-mode-true .description-6 {
+  color: var(--text-iconsdark-disabled);
+}
+
+.element-cards-successcard.dark-mode-false .description-6 {
+  color: var(--text-iconslight-disabled);
+}

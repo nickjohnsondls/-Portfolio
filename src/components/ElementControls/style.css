@@ -1,0 +1,41 @@
+.element-controls {
+  align-items: flex-start;
+  border-radius: 12px;
+  display: inline-flex;
+  gap: 10px;
+  overflow: hidden;
+  padding: 13px 16px;
+  position: relative;
+  top: 16px;
+}
+
+.element-controls .your-email-will-be {
+  font-family: var(--SF-pro-medium-17-m-font-family);
+  font-size: var(--SF-pro-medium-17-m-font-size);
+  font-style: var(--SF-pro-medium-17-m-font-style);
+  font-weight: var(--SF-pro-medium-17-m-font-weight);
+  letter-spacing: var(--SF-pro-medium-17-m-letter-spacing);
+  line-height: var(--SF-pro-medium-17-m-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element-controls.dark-mode-12-true {
+  background-color: var(--greys-07);
+  left: 374px;
+}
+
+.element-controls.dark-mode-12-false {
+  background-color: var(--greys-01);
+  left: 16px;
+}
+
+.element-controls.dark-mode-12-true .your-email-will-be {
+  color: var(--text-iconsdark-disabled);
+}
+
+.element-controls.dark-mode-12-false .your-email-will-be {
+  color: var(--text-iconslight-disabled);
+}
