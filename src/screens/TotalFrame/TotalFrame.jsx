@@ -21,14 +21,17 @@ export const TotalFrame = () => {
                 <p className="intro-text-3">
                   I’m Nick and this is a little about me!
                 </p>
+                <a href="#main-work-frame" className="two-controls-buttons-link">
+
                 <ElementControlsButtons
                   buttonTypes="primary"
                   className="two-controls-buttons"
                   darkMode
                   divClassName="design-component-instance-node"
                   states="default"
-                  text="Learn more ⬇️􀄩"
+                  text="Learn more ⬇️"
                 />
+                </a>
               </div>
             </div>
             <img

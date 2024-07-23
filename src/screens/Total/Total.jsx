@@ -13,12 +13,14 @@ export const Total = () => {
               <div className="hey-text">Hey!</div>
               <p className="p">I’m Nick and this is a little about me!</p>
               <div className="learn-more-scroll">
-                <div className="text-wrapper-2">Learn more ⬇️</div>
+                <a href="#background-frame" className="learn-more-link">
+                  <div className="text-wrapper-2">Learn more ⬇️</div>
+                </a>
               </div>
             </div>
             <div className="element-icons-image-2" />
           </div>
-          <div className="work-frame">
+          <div id="work-frame" className="work-frame">
             <div className="rocket-frame">
               <div className="overlap-group">
                 <div className="element-cards-case-study">
@@ -30,7 +32,11 @@ export const Total = () => {
                 </div>
                 <div className="rocket-coding-logos">
                   <img className="AWS" alt="Aws" src="/img/aws.png" />
-                  <img className="logos-python" alt="Logos python" src="/img/logos-python-original-1.png" />
+                  <img
+                    className="logos-python"
+                    alt="Logos python"
+                    src="/img/logos-python-original-1.png"
+                  />
                   <div className="overlap-group-2">
                     <div className="element-icons-image-3" />
                     <div className="element-icons-image-4" />
@@ -45,21 +51,41 @@ export const Total = () => {
                   <div className="element-icons-image-7" />
                   <div className="element-icons-image-8" />
                   <div className="element-icons-image-9" />
-                  <img className="vector" alt="Vector" src="/img/vector-4.png" />
+                  <img
+                    className="vector"
+                    alt="Vector"
+                    src="/img/vector-4.png"
+                  />
                   <div className="vector-wrapper">
-                    <img className="vector-2" alt="Vector" src="/img/vector-5.png" />
+                    <img
+                      className="vector-2"
+                      alt="Vector"
+                      src="/img/vector-5.png"
+                    />
                   </div>
-                  <img className="vector-3" alt="Vector" src="/img/vector-2.png" />
+                  <img
+                    className="vector-3"
+                    alt="Vector"
+                    src="/img/vector-2.png"
+                  />
                 </div>
-                <p className="text-wrapper-3">Data Science and Analytics Intern</p>
-                <p className="description-7">
-                  (I) Analyzed Rocket Mortgage&#39;s Reddit reputation using NLP sentiment analysis.
-                  <br />
-                  (II) Developed a new strategy for call center routing using Machine Learning. <br />
-                  (III) Developed and implement data-driven solutions through creation of an automated performance
-                  dashboard.
+                <p className="text-wrapper-3">
+                  Data Science and Analytics Intern
                 </p>
-                <img className="vector-4" alt="Vector" src="/img/vector-2x.png" />
+                <p className="description-7">
+                  (I) Analyzed Rocket Mortgage&#39;s Reddit reputation using NLP
+                  sentiment analysis.
+                  <br />
+                  (II) Developed a new strategy for call center routing using
+                  Machine Learning. <br />
+                  (III) Developed and implement data-driven solutions through
+                  creation of an automated performance dashboard.
+                </p>
+                <img
+                  className="vector-4"
+                  alt="Vector"
+                  src="/img/vector-2x.png"
+                />
                 <div className="first-fact">
                   <div className="overlap-2">
                     <div className="group">
@@ -71,7 +97,9 @@ export const Total = () => {
                       <div className="div-wrapper">
                         <div className="frame-6">
                           <div className="description-9">70.1%</div>
-                          <div className="description-10">Neutral Sentiment</div>
+                          <div className="description-10">
+                            Neutral Sentiment
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -88,7 +116,9 @@ export const Total = () => {
                       <div className="group-2">
                         <div className="frame-8">
                           <div className="description-12">2.4 m+</div>
-                          <p className="description-10">Predicted gains from the improved strategy</p>
+                          <p className="description-10">
+                            Predicted gains from the improved strategy
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -110,7 +140,9 @@ export const Total = () => {
                       <div className="group-3">
                         <div className="frame-10">
                           <div className="description-13">++ Clarity</div>
-                          <div className="description-10">For Call Center Leaders</div>
+                          <div className="description-10">
+                            For Call Center Leaders
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -119,7 +151,9 @@ export const Total = () => {
               </div>
             </div>
             <div className="JDF-slide">
-              <p className="co-founder-lead">Co-Founder &amp; Lead Software Engineer</p>
+              <p className="co-founder-lead">
+                Co-Founder &amp; Lead Software Engineer
+              </p>
               <div className="text-wrapper-4">JDF DATA</div>
               <div className="overlap-4">
                 <div className="jdf-logos">
@@ -128,7 +162,11 @@ export const Total = () => {
                     alt="Logos nodejs plain"
                     src="/img/logos-nodejs-plain-wordmark-1-2x.png"
                   />
-                  <img className="java-script" alt="Java script" src="/img/javascript-2x.png" />
+                  <img
+                    className="java-script"
+                    alt="Java script"
+                    src="/img/javascript-2x.png"
+                  />
                   <div className="element-icons-image-10" />
                   <div className="element-icons-image-11" />
                   <div className="element-icons-image-12" />
@@ -136,10 +174,11 @@ export const Total = () => {
                   <div className="saas" />
                 </div>
                 <p className="description-14">
-                  (I) Co-founded JDF Data, developing and deploying a full-stack application for document automation and
-                  retrieval for 4 small local businesses. <br />
-                  (II) Partnered with an industry expert with over 35 years of experience, currently expanding business
-                  opportunities.
+                  (I) Co-founded JDF Data, developing and deploying a full-stack
+                  application for document automation and retrieval for 4 small
+                  local businesses. <br />
+                  (II) Partnered with an industry expert with over 35 years of
+                  experience, currently expanding business opportunities.
                 </p>
               </div>
               <div className="i-fact">
@@ -176,35 +215,54 @@ export const Total = () => {
                 </div>
               </div>
             </div>
-            <img className="work-text-header" alt="Work text header" src="/img/work-text-header.png" />
+            <img
+              className="work-text-header"
+              alt="Work text header"
+              src="/img/work-text-header.png"
+            />
           </div>
-          <div className="background-frame">
+          <div id="background-frame" className="background-frame">
             <div className="text-bubble">
               <p className="mich-intro-text">
-                I go to the University of Michigan where I’m a rising sophomore studying Computer Science and Data
-                Science! Outside of school, I’m currently based in the beautiful San Francisco Bay Area!
+                I go to the University of Michigan where I’m a rising sophomore
+                studying Computer Science and Data Science! Outside of school,
+                I’m currently based in the beautiful San Francisco Bay Area!
                 <br />
                 <br />
-                With over 3.5 years of experience in programming, I’m passionate about applying my technical skills to
-                drive impact for businesses through AI, software engineering and data science.
+                With over 3.5 years of experience in programming, I’m passionate
+                about applying my technical skills to drive impact for
+                businesses through AI, software engineering and data science.
               </p>
             </div>
-            <img className="background-text" alt="Background text" src="/img/background-text-header.png" />
+
+            {/* <div className="custom-buttom">
+            <a href="#work-frame" className="custom-buttom">
+              <div class="text-wrapper-2">Now to my work🚀🛠️</div></a>
+           </div> */}
+
+            <img
+              className="background-text"
+              alt="Background text"
+              src="/img/background-text-header.png"
+            />
             <div className="overlap-6">
               <div className="computer-science" />
               <div className="presentation-picture" />
             </div>
           </div>
-          <div className="projects-and">
+          <div id="projects-and" className="projects-and">
             <div className="projects-and-2">
               <div className="QCF">
                 <div className="overlap-group-4">
                   <div className="div-2">
                     <div className="titles">
-                      <p className="project-title">Quant Project Lead, Trading Team</p>
+                      <p className="project-title">
+                        Quant Project Lead, Trading Team
+                      </p>
                       <p className="description-20">
-                        Led a team of eight students to develop simple trading algorithms such as RSI Mean Reversion,
-                        Pairs Trading, and SMA strategies using Python libraries.
+                        Led a team of eight students to develop simple trading
+                        algorithms such as RSI Mean Reversion, Pairs Trading,
+                        and SMA strategies using Python libraries.
                       </p>
                     </div>
                     <div className="element-icons-image-13" />
@@ -221,11 +279,27 @@ export const Total = () => {
                       src="/img/03-icons-image-placeholder-20.png"
                     />
                     <div className="element-icons-image-16" />
-                    <img className="logos-python-2" alt="Logos python" src="/img/logos-python-original-1-2x.png" />
+                    <img
+                      className="logos-python-2"
+                      alt="Logos python"
+                      src="/img/logos-python-original-1-2x.png"
+                    />
                   </div>
-                  <img className="qcf-logo" alt="Qcf logo" src="/img/qcf-logo.png" />
-                  <a href="https://github.com/nickjohnsondls/Trading-Project" rel="noopener noreferrer" target="_blank">
-                    <img className="skill-button-qcf" alt="Skill button qcf" src="/img/skill-button-qcf.png" />
+                  <img
+                    className="qcf-logo"
+                    alt="Qcf logo"
+                    src="/img/qcf-logo.png"
+                  />
+                  <a
+                    href="https://github.com/nickjohnsondls/Trading-Project"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="skill-button-qcf"
+                      alt="Skill button qcf"
+                      src="/img/skill-button-qcf.png"
+                    />
                   </a>
                 </div>
               </div>
@@ -233,10 +307,13 @@ export const Total = () => {
                 <div className="overlap-7">
                   <div className="MDST-2">
                     <div className="titles-2">
-                      <p className="project-title-2">Michigan Data Science Team: K-Means Machine Learning</p>
+                      <p className="project-title-2">
+                        Michigan Data Science Team: K-Means Machine Learning
+                      </p>
                       <p className="description-21">
-                        Worked in a team of six to enhance Codenames gameplay, developing AI bots using Q-Learning and
-                        K-means to refine decision making strategy.
+                        Worked in a team of six to enhance Codenames gameplay,
+                        developing AI bots using Q-Learning and K-means to
+                        refine decision making strategy.
                       </p>
                     </div>
                     <div className="overlap-group-5">
@@ -263,10 +340,14 @@ export const Total = () => {
               <div className="deloitte-slide">
                 <div className="overlap-8">
                   <div className="titles-3">
-                    <p className="project-title-2">Michigan Ross x Deloitte Datathon: Finalist</p>
+                    <p className="project-title-2">
+                      Michigan Ross x Deloitte Datathon: Finalist
+                    </p>
                     <p className="description-21">
-                      Advised ExxonMobil to boost profits through analysis of emissions, financial, and operational data
-                      to identify key environmental impact correlations and develop mitigation strategies.
+                      Advised ExxonMobil to boost profits through analysis of
+                      emissions, financial, and operational data to identify key
+                      environmental impact correlations and develop mitigation
+                      strategies.
                     </p>
                   </div>
                   <div className="element-icons-image-20" />
@@ -280,16 +361,32 @@ export const Total = () => {
                     />
                     <div className="element-icons-image-22" />
                   </div>
-                  <img className="SQL-logo-deloitte" alt="Sql logo deloitte" src="/img/vector-4.png" />
-                  <img className="tablue-logo" alt="Tablue logo" src="/img/tablue-logo.png" />
-                  <img className="logos-python-3" alt="Logos python" src="/img/logos-python-original-2-2x.png" />
+                  <img
+                    className="SQL-logo-deloitte"
+                    alt="Sql logo deloitte"
+                    src="/img/vector-4.png"
+                  />
+                  <img
+                    className="tablue-logo"
+                    alt="Tablue logo"
+                    src="/img/tablue-logo.png"
+                  />
+                  <img
+                    className="logos-python-3"
+                    alt="Logos python"
+                    src="/img/logos-python-original-2-2x.png"
+                  />
                 </div>
                 <a
                   href="https://docs.google.com/presentation/d/13YsueennRrd_2T5qdX0I_OKwc6kaKdVeQ-Ygz97HJu8/edit?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <img className="skill-button" alt="Skill button" src="/img/skill-button-qcf.png" />
+                  <img
+                    className="skill-button"
+                    alt="Skill button"
+                    src="/img/skill-button-qcf.png"
+                  />
                 </a>
                 <img
                   className="element-icons-image-23"
@@ -300,28 +397,56 @@ export const Total = () => {
               <div className="google-frame">
                 <div className="overlap-group-4">
                   <div className="div-2">
-                    <p className="text-wrapper-5">Google x MHacks AI Hackathon</p>
+                    <p className="text-wrapper-5">
+                      Google x MHacks AI Hackathon
+                    </p>
                     <div className="element-icons-image-24" />
                   </div>
                   <div className="titles-4">
                     <p className="description-22">
-                      Developed &#34;Threaded Semantic Syntax Search&#34; to provide a GitHub and document search tool
-                      for software engineers learning large codebases (&gt;20 million tokens) and company documents.
+                      Developed &#34;Threaded Semantic Syntax Search&#34; to
+                      provide a GitHub and document search tool for software
+                      engineers learning large codebases (&gt;20 million tokens)
+                      and company documents.
                     </p>
                   </div>
-                  <img className="google-icon" alt="Google icon" src="/img/google-icon.png" />
+                  <img
+                    className="google-icon"
+                    alt="Google icon"
+                    src="/img/google-icon.png"
+                  />
                   <a
                     href="https://devpost.com/software/tsss-threaded-semantic-syntax-search"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <img className="tech-stack-google" alt="Tech stack google" src="/img/skill-button-qcf.png" />
+                    <img
+                      className="tech-stack-google"
+                      alt="Tech stack google"
+                      src="/img/skill-button-qcf.png"
+                    />
                   </a>
                   <div className="google-tech-stack">
-                    <img className="vector-5" alt="Vector" src="/img/vector-2-2x.png" />
-                    <img className="frame-15" alt="Frame" src="/img/frame-2x.png" />
-                    <img className="logos-python-4" alt="Logos python" src="/img/logos-python-original-3.png" />
-                    <img className="logos-original" alt="Logos original" src="/img/logos-css3-original-wordmark.png" />
+                    <img
+                      className="vector-5"
+                      alt="Vector"
+                      src="/img/vector-2-2x.png"
+                    />
+                    <img
+                      className="frame-15"
+                      alt="Frame"
+                      src="/img/frame-2x.png"
+                    />
+                    <img
+                      className="logos-python-4"
+                      alt="Logos python"
+                      src="/img/logos-python-original-3.png"
+                    />
+                    <img
+                      className="logos-original"
+                      alt="Logos original"
+                      src="/img/logos-css3-original-wordmark.png"
+                    />
                     <img
                       className="logos-numpy-original-2"
                       alt="Logos numpy original"
@@ -337,25 +462,53 @@ export const Total = () => {
                 </div>
               </div>
             </div>
-            <img className="work-text-header-2" alt="Work text header" src="/img/work-text-header-1.png" />
+            <img
+              className="work-text-header-2"
+              alt="Work text header"
+              src="/img/work-text-header-1.png"
+            />
           </div>
-          <div className="navbar-frame">
+          <div id="navbar-frame" className="navbar-frame">
             <div className="overlap-9">
               <div className="navbar-group">
                 <div className="overlap-group-7">
-                  <a href="mailto:njjohns@umich.edu" rel="noopener noreferrer" target="_blank">
-                    <img className="gmail-button-bottom" alt="Gmail button bottom" src="/img/gmail-button-bottom.png" />
+                  <a
+                    href="mailto:njjohns@umich.edu"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="gmail-button-bottom"
+                      alt="Gmail button bottom"
+                      src="/img/gmail-button-bottom.png"
+                    />
                   </a>
-                  <img className="face-intro-text" alt="Face intro text" src="/img/face-intro-text-2.png" />
+                  <img
+                    className="face-intro-text"
+                    alt="Face intro text"
+                    src="/img/face-intro-text-2.png"
+                  />
                   <a
                     className="frame-16"
                     href="www.linkedin.com/in/nick-johnson-michigan"
                     rel="noopener noreferrer"
                     target="_blank"
                   />
-                  <img className="element-controls-fab" alt="Element controls fab" src="/img/02-controls-fab.png" />
-                  <a href="https://github.com/nickjohnsondls" rel="noopener noreferrer" target="_blank">
-                    <img className="github-logo" alt="Github logo" src="/img/github-logo.png" />
+                  <img
+                    className="element-controls-fab"
+                    alt="Element controls fab"
+                    src="/img/02-controls-fab.png"
+                  />
+                  <a
+                    href="https://github.com/nickjohnsondls"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      className="github-logo"
+                      alt="Github logo"
+                      src="/img/github-logo.png"
+                    />
                   </a>
                   <a
                     href="https://drive.google.com/file/d/11I7Te1zspGAys8I1IOcdR-zYOuN86LB6/view?usp=sharing"
@@ -373,50 +526,107 @@ export const Total = () => {
               <div className="options">
                 <div className="element-navigation">
                   <div className="buttons">
-                    <div className="text-wrapper-6">Background</div>
+                    <a href="#background-frame" className="text-wrapper-6">
+                      Background
+                    </a>
                   </div>
-                  <img className="highlighter" alt="Highlighter" src="/img/highlighter.png" />
+                  <img
+                    className="highlighter"
+                    alt="Highlighter"
+                    src="/img/highlighter.png"
+                  />
                 </div>
                 <div className="element-navigation">
                   <div className="buttons">
-                    <div className="text-wrapper-7">Work</div>
+                    <a href="#work-frame" className="text-wrapper-7">
+                      Work
+                    </a>
                   </div>
-                  <img className="highlighter-2" alt="Highlighter" src="/img/highlighter-1.png" />
+                  <img
+                    className="highlighter-2"
+                    alt="Highlighter"
+                    src="/img/highlighter-1.png"
+                  />
                 </div>
                 <div className="element-navigation">
                   <div className="buttons">
-                    <div className="text-wrapper-7">Project</div>
+                    <a href="#projects-and" className="text-wrapper-7">
+                      Project
+                    </a>
                   </div>
-                  <img className="highlighter-3" alt="Highlighter" src="/img/highlighter-1.png" />
+                  <img
+                    className="highlighter-3"
+                    alt="Highlighter"
+                    src="/img/highlighter-1.png"
+                  />
                 </div>
                 <div className="element-navigation">
                   <div className="buttons">
-                    <div className="text-wrapper-7">Contact</div>
+                    <a href="#bottom-group-frame" className="text-wrapper-7">
+                      Contact
+                    </a>
                   </div>
-                  <img className="highlighter-4" alt="Highlighter" src="/img/highlighter-1.png" />
+                  <img
+                    className="highlighter-4"
+                    alt="Highlighter"
+                    src="/img/highlighter-1.png"
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <div className="bottom-group-frame">
+          <div id="bottom-group-frame" className="bottom-group-frame">
             <div className="overlap-10">
               <div className="bottom-group">
-                <img className="frame-17" alt="Frame" src="/img/frame-4501.png" />
+                <img
+                  className="frame-17"
+                  alt="Frame"
+                  src="/img/frame-4501.png"
+                />
                 <p className="text-wrapper-8">Made by Nick Johnson, 2024</p>
                 <div className="contact-info">
-                  <img className="reach-out-for-more" alt="Reach out for more" src="/img/reach-out-for-more-2.png" />
+                  <img
+                    className="reach-out-for-more"
+                    alt="Reach out for more"
+                    src="/img/reach-out-for-more-2.png"
+                  />
                 </div>
                 <div className="frame-18">
-                  <div className="text-wrapper-9">About</div>
-                  <div className="text-wrapper-9">Work</div>
-                  <div className="text-wrapper-9">Projects</div>
+                  <div className="text-wrapper-9">
+                    <a href="#background-frame" className="nav-link">
+                      <div className="text-wrapper-9">About</div>
+                    </a>
+                  </div>
+
+                  <div className="text-wrapper-9">
+                    <a href="#work-frame" className="nav-link">
+                      <div className="text-wrapper-9">Work</div>
+                    </a>
+                  </div>
+
+                  <div className="text-wrapper-9">
+                    <a href="#projects-and" className="nav-link">
+                      <div className="text-wrapper-9">Projects</div>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="element-controls-buttons-2">
-                <div className="text-wrapper-6">Back up</div>
+                <a href="#navbar-frame" className="nav-link">
+                  <div className="text-wrapper-6">Back up</div>
+                </a>
               </div>
-              <a href="mailto:njjohns@umich.edu" rel="noopener noreferrer" target="_blank">
-                <img className="gmail-button-bottom-2" alt="Gmail button bottom" src="/img/gmail-button-bottom.png" />
+
+              <a
+                href="mailto:njjohns@umich.edu"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="gmail-button-bottom-2"
+                  alt="Gmail button bottom"
+                  src="/img/gmail-button-bottom.png"
+                />
               </a>
               <a
                 className="frame-19"
@@ -424,8 +634,16 @@ export const Total = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               />
-              <a href="https://github.com/nickjohnsondls" rel="noopener noreferrer" target="_blank">
-                <img className="github-logo-2" alt="Github logo" src="/img/github-logo.png" />
+              <a
+                href="https://github.com/nickjohnsondls"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="github-logo-2"
+                  alt="Github logo"
+                  src="/img/github-logo.png"
+                />
               </a>
               <a
                 href="https://drive.google.com/file/d/11I7Te1zspGAys8I1IOcdR-zYOuN86LB6/view?usp=sharing"
@@ -440,7 +658,7 @@ export const Total = () => {
               </a>
             </div>
           </div>
-          <img className="navbarline" alt="Navbarline" src="/img/navbarline.png" />
+
           <div className="luke-nick-fistbump" />
         </div>
       </div>

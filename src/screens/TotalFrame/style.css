@@ -1,21 +1,78 @@
-.total-frame {
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  min-height: 100%;
-}
-
 html, body {
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-y: scroll; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
 }
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .nav-link {
+      padding: 10px 0;
+  }
+}
+
+/* For WebKit browsers (Chrome, Safari, and Opera) */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  height: 0; /* Remove scrollbar space */
+}
+
+
+/* For Firefox */
+html {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+body {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+
+
+#app {
+  width: 100%;
+  height :100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+
+
+.total-frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-frame {
+  height: 100%; /* Adjust height to fit content */
+  left: 0; /* Align to the left */
+  overflow: hidden; /* Change overflow to hidden */
+  position: center; /* Change to relative positioning */
+  top:-50; /* Adjust top position */
+  width: auto; /* Use percentage width to fit viewport */
+}
+
+
 
 .total-frame .total-wrapper {
   height: 100%; /* Adjust height to fit content */
-  overflow-x: hidden;
   width: 100%; /* Use percentage width to fit viewport */
 }
 
@@ -37,17 +94,10 @@ html, body {
   left: 0; /* Align to the left */
   position: absolute;
   top: 0;
-  width: 100%; /* Use percentage width to fit viewport */
+  width: auto; /* Use percentage width to fit viewport */
 }
 
-.total-frame .main-intro-frame {
-  height: auto; /* Adjust height to fit content */
-  left: 0; /* Align to the left */
-  overflow: hidden; /* Change overflow to hidden */
-  position: relative; /* Change to relative positioning */
-  top: 0; /* Adjust top position */
-  width: 100%; /* Use percentage width to fit viewport */
-}
+
 
 .total-frame .vector-6 {
   height: 485px;
@@ -1044,7 +1094,7 @@ html, body {
 
 .total-frame .background-slide {
   height: 777px;
-  width: 1442px;
+  width: 1440px;
 }
 
 .total-frame .overlap-group-12 {
@@ -1598,7 +1648,7 @@ html, body {
 
 .total-frame .navbar-group-2 {
   height: 115px;
-  width: 1442px;
+  width: 1440px;
 }
 
 .total-frame .overlap-group-16 {
@@ -1608,11 +1658,10 @@ html, body {
 }
 
 .total-frame .navbar {
-  background-color: var(--greys-08);
   height: 112px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -20;
   width: 1440px;
 }
 
@@ -1707,7 +1756,7 @@ html, body {
   height: 560px;
   position: relative;
   top: -70px;
-  width: 1442px;
+  width: 1440px;
 }
 
 .total-frame .bottom-group-2 {
@@ -1715,7 +1764,7 @@ html, body {
   left: 0;
   position: absolute;
   top: 0;
-  width: 1442px;
+  width: 1440px;
 }
 
 .total-frame .overlap-group-17 {
