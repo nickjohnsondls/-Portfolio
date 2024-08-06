@@ -102,7 +102,7 @@ export const TotalFrame = () => {
                     />
                     <p className="data-science-and">
                       <span className="span">
-                        Data Science and Analytics
+                        Data Analyst
                         Intern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </span>
                       <span className="text-wrapper-10">🚀</span>
@@ -137,9 +137,9 @@ export const TotalFrame = () => {
                           <div className="frame-22">
                             <div className="group-4">
                               <div className="frame-23">
-                                <div className="description-24">70.1%</div>
+                                <div className="description-24">20.1%</div>
                                 <div className="description-25">
-                                  Neutral Sentiment
+                                  Negative Sentiment
                                 </div>
                               </div>
                             </div>
@@ -161,7 +161,7 @@ export const TotalFrame = () => {
                           <div className="frame-24">
                             <div className="group-5">
                               <div className="frame-25">
-                                <div className="description-26">240 k+</div>
+                                <div className="description-26">13.75m+</div>
                                 <div className="description-25">
                                   Foretasted Gains
                                 </div>
@@ -217,7 +217,7 @@ export const TotalFrame = () => {
                   />
                   <p className="co-founder-lead-2">
                     <span className="span">
-                      Co-Founder &amp; Lead Software
+                      Co-Founder &amp; Software
                       Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </span>
                     <span className="text-wrapper-11">🛠️</span>

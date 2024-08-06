@@ -70,7 +70,7 @@ export const Total = () => {
                   />
                 </div>
                 <p className="text-wrapper-3">
-                  Data Science and Analytics Intern
+                  Data Analyst Intern
                 </p>
                 <p className="description-7">
                   (I) Analyzed Rocket Mortgage&#39;s Reddit reputation using NLP
@@ -96,9 +96,9 @@ export const Total = () => {
                     <div className="frame-5">
                       <div className="div-wrapper">
                         <div className="frame-6">
-                          <div className="description-9">70.1%</div>
+                          <div className="description-9">20.1%</div>
                           <div className="description-10">
-                            Neutral Sentiment
+                            Negative Sentiment
                           </div>
                         </div>
                       </div>
@@ -115,7 +115,7 @@ export const Total = () => {
                     <div className="frame-7">
                       <div className="group-2">
                         <div className="frame-8">
-                          <div className="description-12">2.4 m+</div>
+                          <div className="description-12">13.75 m+</div>
                           <p className="description-10">
                             Predicted gains from the improved strategy
                           </p>
@@ -152,7 +152,7 @@ export const Total = () => {
             </div>
             <div className="JDF-slide">
               <p className="co-founder-lead">
-                Co-Founder &amp; Lead Software Engineer
+                Co-Founder &amp; Software Engineer
               </p>
               <div className="text-wrapper-4">JDF DATA</div>
               <div className="overlap-4">
