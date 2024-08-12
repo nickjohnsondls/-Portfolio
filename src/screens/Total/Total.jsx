@@ -115,9 +115,9 @@ export const Total = () => {
                     <div className="frame-7">
                       <div className="group-2">
                         <div className="frame-8">
-                          <div className="description-12">13.75 m+</div>
+                          <div className="description-12">36.75 m+</div>
                           <p className="description-10">
-                            Predicted gains from the improved strategy
+                            Forecasted Revenue Increase
                           </p>
                         </div>
                       </div>
@@ -490,7 +490,7 @@ export const Total = () => {
                   />
                   <a
                     className="frame-16"
-                    href="www.linkedin.com/in/nick-johnson-michigan"
+                    href="https://www.linkedin.com/in/nick-johnson-michigan"
                     rel="noopener noreferrer"
                     target="_blank"
                   />
@@ -630,7 +630,7 @@ export const Total = () => {
               </a>
               <a
                 className="frame-19"
-                href="www.linkedin.com/in/nick-johnson-michigan"
+                href="https://www.linkedin.com/in/nick-johnson-michigan"
                 rel="noopener noreferrer"
                 target="_blank"
               />

@@ -161,9 +161,9 @@ export const TotalFrame = () => {
                           <div className="frame-24">
                             <div className="group-5">
                               <div className="frame-25">
-                                <div className="description-26">13.75m+</div>
+                                <div className="description-26">36.75m+</div>
                                 <div className="description-25">
-                                  Foretasted Gains
+                                  Foretasted Revenue Increase
                                 </div>
                               </div>
                             </div>
@@ -555,7 +555,7 @@ export const TotalFrame = () => {
                   />
                   <a
                     className="frame-34"
-                    href="www.linkedin.com/in/nick-johnson-michigan"
+                    href="https://www.linkedin.com/in/nick-johnson-michigan"
                     rel="noopener noreferrer"
                     target="_blank"
                   />
