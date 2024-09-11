@@ -511,7 +511,6 @@ export const Total = () => {
                     />
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/11O03FOnRz7E6QVJiOQl5w7GIPdQfQ5NM/view?usp=sharing"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -646,7 +645,6 @@ export const Total = () => {
                 />
               </a>
               <a
-                href="https://drive.google.com/file/d/11O03FOnRz7E6QVJiOQl5w7GIPdQfQ5NM/view?usp=sharing"
                 rel="noopener noreferrer"
                 target="_blank"
               >

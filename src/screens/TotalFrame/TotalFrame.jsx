@@ -573,7 +573,6 @@ export const TotalFrame = () => {
                   </a>
                   <a
                     className="resume-button-bottom-3"
-                    href="https://drive.google.com/file/d/11O03FOnRz7E6QVJiOQl5w7GIPdQfQ5NM/view?usp=sharing"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
